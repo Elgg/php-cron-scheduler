@@ -1,3 +1,7 @@
+> # No longer maintained
+>
+> This fork of the package is not maintained. For update information see [peppeocchi/php-cron-scheduler](https://github.com/peppeocchi/php-cron-scheduler/)
+
 PHP Cron Scheduler
 ==
 
