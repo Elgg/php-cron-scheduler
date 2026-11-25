@@ -161,7 +161,7 @@ class Job
                 $this->id = md5(serialize($command));
             } else {
                 /* @var object $command */
-                $this->id = spl_object_hash($command);
+                $this->id = (string) spl_object_id($command);
             }
         }
 
